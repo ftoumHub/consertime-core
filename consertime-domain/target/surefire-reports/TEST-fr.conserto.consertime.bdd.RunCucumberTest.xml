@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="fr.conserto.consertime.bdd.RunCucumberTest" time="2.459" tests="55" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\sandbox\consertime-core\consertime-domain\target\test-classes;C:\sandbox\consertime-core\consertime-domain\target\classes;C:\Users\georg\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\georg\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\georg\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\georg\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\georg\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\georg\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\georg\.m2\repository\org\assertj\assertj-core\3.27.3\assertj-core-3.27.3.jar;C:\Users\georg\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\georg\.m2\repository\org\junit\platform\junit-platform-suite\1.11.4\junit-platform-suite-1.11.4.jar;C:\Users\georg\.m2\repository\org\junit\platform\junit-platform-suite-api\1.11.4\junit-platform-suite-api-1.11.4.jar;C:\Users\georg\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.11.4\junit-platform-suite-engine-1.11.4.jar;C:\Users\georg\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.11.4\junit-platform-suite-commons-1.11.4.jar;C:\Users\georg\.m2\repository\org\junit\platform\junit-platform-launcher\1.11.4\junit-platform-launcher-1.11.4.jar;C:\Users\georg\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\georg\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\georg\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\georg\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\georg\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\georg\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\georg\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\georg\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\georg\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\georg\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\georg\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\georg\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\georg\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\georg\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\georg\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\georg\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\georg\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\georg\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.20.1\cucumber-junit-platform-engine-7.20.1.jar;C:\Users\georg\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Tools\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\georg\AppData\Local\Temp\surefire4133482289713002344\surefirebooter-20261116223214355_3.jar C:\Users\georg\AppData\Local\Temp\surefire4133482289713002344 2026-11-16T22-32-13_995-jvmRun1 surefire-20261116223214355_1tmp surefire_0-20261116223214355_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\sandbox\consertime-core\consertime-domain\target\test-classes;C:\sandbox\consertime-core\consertime-domain\target\classes;C:\Users\georg\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\georg\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\georg\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\georg\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\georg\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\georg\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\georg\.m2\repository\org\assertj\assertj-core\3.27.3\assertj-core-3.27.3.jar;C:\Users\georg\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\georg\.m2\repository\org\junit\platform\junit-platform-suite\1.11.4\junit-platform-suite-1.11.4.jar;C:\Users\georg\.m2\repository\org\junit\platform\junit-platform-suite-api\1.11.4\junit-platform-suite-api-1.11.4.jar;C:\Users\georg\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.11.4\junit-platform-suite-engine-1.11.4.jar;C:\Users\georg\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.11.4\junit-platform-suite-commons-1.11.4.jar;C:\Users\georg\.m2\repository\org\junit\platform\junit-platform-launcher\1.11.4\junit-platform-launcher-1.11.4.jar;C:\Users\georg\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\georg\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\georg\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\georg\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\georg\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\georg\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\georg\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\georg\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\georg\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\georg\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\georg\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\georg\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\georg\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\georg\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\georg\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\georg\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\georg\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\georg\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.20.1\cucumber-junit-platform-engine-7.20.1.jar;C:\Users\georg\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\georg"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Tools\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\sandbox\consertime-core\consertime-domain"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\georg\AppData\Local\Temp\surefire4133482289713002344\surefirebooter-20261116223214355_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="georg"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\georg\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\georg\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\sandbox\consertime-core\consertime-domain"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Tools\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Tools\apache-maven-3.8.8\bin;C:\Tools\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Tools\jdk-17\bin;C:\Users\georg\AppData\Local\Microsoft\WindowsApps;C:\Users\georg\AppData\Local\Programs\Microsoft VS Code\bin;C:\Tools\apache-maven-3.8.8\bin;C:\Users\georg\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Date de Pâques - Exemples - Example #1.1" classname="Calendrier des jours fériés et des jours ouvrés - Date de Pâques - Exemples" time="0.203">
+    <system-out><![CDATA[
+Plan du scénario: Date de Pâques        &amp#27;[90m# features/calendrier.feature:11&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mPâques &amp#27;[0m&amp#27;[32m&amp#27;[1m2024&amp#27;[0m&amp#27;[32m tombe le &amp#27;[0m&amp#27;[32m&amp#27;[1m2024-03-31&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.paquesTombeLe(int,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Date de Pâques - Exemples - Example #1.2" classname="Calendrier des jours fériés et des jours ouvrés - Date de Pâques - Exemples" time="0.029">
+    <system-out><![CDATA[
+Plan du scénario: Date de Pâques        &amp#27;[90m# features/calendrier.feature:12&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mPâques &amp#27;[0m&amp#27;[32m&amp#27;[1m2025&amp#27;[0m&amp#27;[32m tombe le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-04-20&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.paquesTombeLe(int,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Date de Pâques - Exemples - Example #1.3" classname="Calendrier des jours fériés et des jours ouvrés - Date de Pâques - Exemples" time="0.026">
+    <system-out><![CDATA[
+Plan du scénario: Date de Pâques        &amp#27;[90m# features/calendrier.feature:13&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mPâques &amp#27;[0m&amp#27;[32m&amp#27;[1m2026&amp#27;[0m&amp#27;[32m tombe le &amp#27;[0m&amp#27;[32m&amp#27;[1m2026-04-05&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.paquesTombeLe(int,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Date de Pâques - Exemples - Example #1.4" classname="Calendrier des jours fériés et des jours ouvrés - Date de Pâques - Exemples" time="0.019">
+    <system-out><![CDATA[
+Plan du scénario: Date de Pâques        &amp#27;[90m# features/calendrier.feature:14&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mPâques &amp#27;[0m&amp#27;[32m&amp#27;[1m2027&amp#27;[0m&amp#27;[32m tombe le &amp#27;[0m&amp#27;[32m&amp#27;[1m2027-03-28&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.paquesTombeLe(int,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples - Example #1.1" classname="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples" time="0.023">
+    <system-out><![CDATA[
+Plan du scénario: Jours fériés de 2025 en métropole    &amp#27;[90m# features/calendrier.feature:21&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mle &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-01-01&amp#27;[0m&amp#27;[32m est un jour férié &amp#27;[0m&amp#27;[32m&amp#27;[1m"Jour de l'an"&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.estUnJourFerie(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples - Example #1.2" classname="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples" time="0.019">
+    <system-out><![CDATA[
+Plan du scénario: Jours fériés de 2025 en métropole       &amp#27;[90m# features/calendrier.feature:22&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mle &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-04-21&amp#27;[0m&amp#27;[32m est un jour férié &amp#27;[0m&amp#27;[32m&amp#27;[1m"Lundi de Pâques"&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.estUnJourFerie(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples - Example #1.3" classname="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples" time="0.03">
+    <system-out><![CDATA[
+Plan du scénario: Jours fériés de 2025 en métropole       &amp#27;[90m# features/calendrier.feature:23&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mle &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-01&amp#27;[0m&amp#27;[32m est un jour férié &amp#27;[0m&amp#27;[32m&amp#27;[1m"Fête du Travail"&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.estUnJourFerie(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples - Example #1.4" classname="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples" time="0.012">
+    <system-out><![CDATA[
+Plan du scénario: Jours fériés de 2025 en métropole     &amp#27;[90m# features/calendrier.feature:24&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mle &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-08&amp#27;[0m&amp#27;[32m est un jour férié &amp#27;[0m&amp#27;[32m&amp#27;[1m"Victoire 1945"&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.estUnJourFerie(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples - Example #1.5" classname="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples" time="0.008">
+    <system-out><![CDATA[
+Plan du scénario: Jours fériés de 2025 en métropole &amp#27;[90m# features/calendrier.feature:25&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mle &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-29&amp#27;[0m&amp#27;[32m est un jour férié &amp#27;[0m&amp#27;[32m&amp#27;[1m"Ascension"&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.estUnJourFerie(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples - Example #1.6" classname="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples" time="0.009">
+    <system-out><![CDATA[
+Plan du scénario: Jours fériés de 2025 en métropole          &amp#27;[90m# features/calendrier.feature:26&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mle &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-09&amp#27;[0m&amp#27;[32m est un jour férié &amp#27;[0m&amp#27;[32m&amp#27;[1m"Lundi de Pentecôte"&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.estUnJourFerie(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples - Example #1.7" classname="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples" time="0.01">
+    <system-out><![CDATA[
+Plan du scénario: Jours fériés de 2025 en métropole      &amp#27;[90m# features/calendrier.feature:27&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mle &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-07-14&amp#27;[0m&amp#27;[32m est un jour férié &amp#27;[0m&amp#27;[32m&amp#27;[1m"Fête nationale"&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.estUnJourFerie(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples - Example #1.8" classname="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples" time="0.01">
+    <system-out><![CDATA[
+Plan du scénario: Jours fériés de 2025 en métropole  &amp#27;[90m# features/calendrier.feature:28&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mle &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-08-15&amp#27;[0m&amp#27;[32m est un jour férié &amp#27;[0m&amp#27;[32m&amp#27;[1m"Assomption"&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.estUnJourFerie(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples - Example #1.9" classname="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples" time="0.01">
+    <system-out><![CDATA[
+Plan du scénario: Jours fériés de 2025 en métropole &amp#27;[90m# features/calendrier.feature:29&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mle &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-11-01&amp#27;[0m&amp#27;[32m est un jour férié &amp#27;[0m&amp#27;[32m&amp#27;[1m"Toussaint"&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.estUnJourFerie(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples - Example #1.10" classname="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples" time="0.036">
+    <system-out><![CDATA[
+Plan du scénario: Jours fériés de 2025 en métropole      &amp#27;[90m# features/calendrier.feature:30&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mle &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-11-11&amp#27;[0m&amp#27;[32m est un jour férié &amp#27;[0m&amp#27;[32m&amp#27;[1m"Armistice 1918"&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.estUnJourFerie(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples - Example #1.11" classname="Calendrier des jours fériés et des jours ouvrés - Jours fériés de 2025 en métropole - Exemples" time="0.016">
+    <system-out><![CDATA[
+Plan du scénario: Jours fériés de 2025 en métropole &amp#27;[90m# features/calendrier.feature:31&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mle &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-12-25&amp#27;[0m&amp#27;[32m est un jour férié &amp#27;[0m&amp#27;[32m&amp#27;[1m"Noël"&amp#27;[0m      &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.estUnJourFerie(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Une année compte 11 jours fériés en métropole et 13 en Alsace-Moselle" classname="Calendrier des jours fériés et des jours ouvrés" time="0.041">
+    <system-out><![CDATA[
+Scénario: Une année compte 11 jours fériés en métropole et 13 en Alsace-Moselle &amp#27;[90m# features/calendrier.feature:33&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32ml'année &amp#27;[0m&amp#27;[32m&amp#27;[1m2025&amp#27;[0m&amp#27;[32m compte &amp#27;[0m&amp#27;[32m&amp#27;[1m11&amp#27;[0m&amp#27;[32m jours fériés en métropole&amp#27;[0m                        &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.feriesMetropole(int,int)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32ml'année &amp#27;[0m&amp#27;[32m&amp#27;[1m2025&amp#27;[0m&amp#27;[32m compte &amp#27;[0m&amp#27;[32m&amp#27;[1m13&amp#27;[0m&amp#27;[32m jours fériés en Alsace-Moselle&amp#27;[0m                      &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.feriesAlsaceMoselle(int,int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Jours ouvrés et jours ouvrables d&apos;un mois - Exemples - Example #1.1" classname="Calendrier des jours fériés et des jours ouvrés - Jours ouvrés et jours ouvrables d&apos;un mois - Exemples" time="0.011">
+    <system-out><![CDATA[
+Plan du scénario: Jours ouvrés et jours ouvrables d'un mois          &amp#27;[90m# features/calendrier.feature:42&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mle mois &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-04&amp#27;[0m&amp#27;[32m compte &amp#27;[0m&amp#27;[32m&amp#27;[1m21&amp#27;[0m&amp#27;[32m jours ouvrés et &amp#27;[0m&amp#27;[32m&amp#27;[1m25&amp#27;[0m&amp#27;[32m jours ouvrables&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.joursDuMois(java.lang.String,int,int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Jours ouvrés et jours ouvrables d&apos;un mois - Exemples - Example #1.2" classname="Calendrier des jours fériés et des jours ouvrés - Jours ouvrés et jours ouvrables d&apos;un mois - Exemples" time="0.017">
+    <system-out><![CDATA[
+Plan du scénario: Jours ouvrés et jours ouvrables d'un mois          &amp#27;[90m# features/calendrier.feature:43&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mle mois &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05&amp#27;[0m&amp#27;[32m compte &amp#27;[0m&amp#27;[32m&amp#27;[1m19&amp#27;[0m&amp#27;[32m jours ouvrés et &amp#27;[0m&amp#27;[32m&amp#27;[1m24&amp#27;[0m&amp#27;[32m jours ouvrables&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.joursDuMois(java.lang.String,int,int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Calendrier des jours fériés et des jours ouvrés - Jours ouvrés et jours ouvrables d&apos;un mois - Exemples - Example #1.3" classname="Calendrier des jours fériés et des jours ouvrés - Jours ouvrés et jours ouvrables d&apos;un mois - Exemples" time="0.017">
+    <system-out><![CDATA[
+Plan du scénario: Jours ouvrés et jours ouvrables d'un mois          &amp#27;[90m# features/calendrier.feature:44&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mle mois &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06&amp#27;[0m&amp#27;[32m compte &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m&amp#27;[32m jours ouvrés et &amp#27;[0m&amp#27;[32m&amp#27;[1m24&amp#27;[0m&amp#27;[32m jours ouvrables&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesCalendrier.joursDuMois(java.lang.String,int,int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Demandes de congés - Nombre de jours d&apos;une demande - Exemples - Example #1.1" classname="Demandes de congés - Nombre de jours d&apos;une demande - Exemples" time="0.048">
+    <system-out><![CDATA[
+Plan du scénario: Nombre de jours d'une demande                            &amp#27;[90m# features/conges.feature:24&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mles collaborateurs suivants :&amp#27;[0m                                &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.lesCollaborateursSuivants(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | prénom | nom      | matricule | département | entrée     | rôles               |
+    | Rachel | Referent | 1001      | DIG         | 2018-09-03 | REFERENT,CONSULTANT |
+    | Alice  | Martin   | 1002      | DIG         | 2020-01-06 | CONSULTANT          |
+    | Bruno  | Petit    | 1003      | DIG         | 2021-03-01 | CONSULTANT          |
+    | Chloé  | Durand   | 1004      | CLD         | 2024-09-02 | CONSULTANT          |
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"DIG"&amp#27;[0m&amp#27;[32m a pour référente &amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementAvecReferent(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLD"&amp#27;[0m&amp#27;[32m n'a pas de référent&amp#27;[0m                              &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementSansReferent(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-05&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m14:00&amp#27;[0m                                     &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m demande un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"CP"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-16&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmatin&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-20&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1msoir&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.demande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla demande compte &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.laDemandeCompte(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Demandes de congés - Nombre de jours d&apos;une demande - Exemples - Example #1.2" classname="Demandes de congés - Nombre de jours d&apos;une demande - Exemples" time="0.029">
+    <system-out><![CDATA[
+Plan du scénario: Nombre de jours d'une demande                                 &amp#27;[90m# features/conges.feature:25&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mles collaborateurs suivants :&amp#27;[0m                                     &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.lesCollaborateursSuivants(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | prénom | nom      | matricule | département | entrée     | rôles               |
+    | Rachel | Referent | 1001      | DIG         | 2018-09-03 | REFERENT,CONSULTANT |
+    | Alice  | Martin   | 1002      | DIG         | 2020-01-06 | CONSULTANT          |
+    | Bruno  | Petit    | 1003      | DIG         | 2021-03-01 | CONSULTANT          |
+    | Chloé  | Durand   | 1004      | CLD         | 2024-09-02 | CONSULTANT          |
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"DIG"&amp#27;[0m&amp#27;[32m a pour référente &amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m                               &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementAvecReferent(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLD"&amp#27;[0m&amp#27;[32m n'a pas de référent&amp#27;[0m                                   &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementSansReferent(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-05&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m14:00&amp#27;[0m                                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m demande un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"CP"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-16&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1maprès-midi&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-17&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmidi&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.demande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla demande compte &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                                               &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.laDemandeCompte(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Demandes de congés - Nombre de jours d&apos;une demande - Exemples - Example #1.3" classname="Demandes de congés - Nombre de jours d&apos;une demande - Exemples" time="0.038">
+    <system-out><![CDATA[
+Plan du scénario: Nombre de jours d'une demande                                 &amp#27;[90m# features/conges.feature:26&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mles collaborateurs suivants :&amp#27;[0m                                     &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.lesCollaborateursSuivants(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | prénom | nom      | matricule | département | entrée     | rôles               |
+    | Rachel | Referent | 1001      | DIG         | 2018-09-03 | REFERENT,CONSULTANT |
+    | Alice  | Martin   | 1002      | DIG         | 2020-01-06 | CONSULTANT          |
+    | Bruno  | Petit    | 1003      | DIG         | 2021-03-01 | CONSULTANT          |
+    | Chloé  | Durand   | 1004      | CLD         | 2024-09-02 | CONSULTANT          |
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"DIG"&amp#27;[0m&amp#27;[32m a pour référente &amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m                               &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementAvecReferent(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLD"&amp#27;[0m&amp#27;[32m n'a pas de référent&amp#27;[0m                                   &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementSansReferent(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-05&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m14:00&amp#27;[0m                                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m demande un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"CP"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-13&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1maprès-midi&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-16&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmidi&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.demande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla demande compte &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                                               &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.laDemandeCompte(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Demandes de congés - Nombre de jours d&apos;une demande - Exemples - Example #1.4" classname="Demandes de congés - Nombre de jours d&apos;une demande - Exemples" time="0.023">
+    <system-out><![CDATA[
+Plan du scénario: Nombre de jours d'une demande                            &amp#27;[90m# features/conges.feature:27&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mles collaborateurs suivants :&amp#27;[0m                                &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.lesCollaborateursSuivants(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | prénom | nom      | matricule | département | entrée     | rôles               |
+    | Rachel | Referent | 1001      | DIG         | 2018-09-03 | REFERENT,CONSULTANT |
+    | Alice  | Martin   | 1002      | DIG         | 2020-01-06 | CONSULTANT          |
+    | Bruno  | Petit    | 1003      | DIG         | 2021-03-01 | CONSULTANT          |
+    | Chloé  | Durand   | 1004      | CLD         | 2024-09-02 | CONSULTANT          |
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"DIG"&amp#27;[0m&amp#27;[32m a pour référente &amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementAvecReferent(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLD"&amp#27;[0m&amp#27;[32m n'a pas de référent&amp#27;[0m                              &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementSansReferent(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-05&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m14:00&amp#27;[0m                                     &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m demande un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"CP"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-29&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmatin&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-30&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1msoir&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.demande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla demande compte &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.laDemandeCompte(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Demandes de congés - Nombre de jours d&apos;une demande - Exemples - Example #1.5" classname="Demandes de congés - Nombre de jours d&apos;une demande - Exemples" time="0.016">
+    <system-out><![CDATA[
+Plan du scénario: Nombre de jours d'une demande                            &amp#27;[90m# features/conges.feature:28&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mles collaborateurs suivants :&amp#27;[0m                                &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.lesCollaborateursSuivants(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | prénom | nom      | matricule | département | entrée     | rôles               |
+    | Rachel | Referent | 1001      | DIG         | 2018-09-03 | REFERENT,CONSULTANT |
+    | Alice  | Martin   | 1002      | DIG         | 2020-01-06 | CONSULTANT          |
+    | Bruno  | Petit    | 1003      | DIG         | 2021-03-01 | CONSULTANT          |
+    | Chloé  | Durand   | 1004      | CLD         | 2024-09-02 | CONSULTANT          |
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"DIG"&amp#27;[0m&amp#27;[32m a pour référente &amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementAvecReferent(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLD"&amp#27;[0m&amp#27;[32m n'a pas de référent&amp#27;[0m                              &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementSansReferent(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-05&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m14:00&amp#27;[0m                                     &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m demande un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"CP"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-09&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmatin&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-13&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1msoir&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.demande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla demande compte &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.laDemandeCompte(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Demandes de congés - Nombre de jours d&apos;une demande - Exemples - Example #1.6" classname="Demandes de congés - Nombre de jours d&apos;une demande - Exemples" time="0.021">
+    <system-out><![CDATA[
+Plan du scénario: Nombre de jours d'une demande                                 &amp#27;[90m# features/conges.feature:29&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mles collaborateurs suivants :&amp#27;[0m                                     &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.lesCollaborateursSuivants(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | prénom | nom      | matricule | département | entrée     | rôles               |
+    | Rachel | Referent | 1001      | DIG         | 2018-09-03 | REFERENT,CONSULTANT |
+    | Alice  | Martin   | 1002      | DIG         | 2020-01-06 | CONSULTANT          |
+    | Bruno  | Petit    | 1003      | DIG         | 2021-03-01 | CONSULTANT          |
+    | Chloé  | Durand   | 1004      | CLD         | 2024-09-02 | CONSULTANT          |
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"DIG"&amp#27;[0m&amp#27;[32m a pour référente &amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m                               &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementAvecReferent(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLD"&amp#27;[0m&amp#27;[32m n'a pas de référent&amp#27;[0m                                   &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementSansReferent(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-05&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m14:00&amp#27;[0m                                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m demande un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"CP"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-02&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1maprès-midi&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-02&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1msoir&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.demande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla demande compte &amp#27;[0m&amp#27;[32m&amp#27;[1m0.5&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                                             &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.laDemandeCompte(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Demandes de congés - Une période sans jour ouvré est refusée" classname="Demandes de congés" time="0.016">
+    <system-out><![CDATA[
+Scénario: Une période sans jour ouvré est refusée                          &amp#27;[90m# features/conges.feature:31&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mles collaborateurs suivants :&amp#27;[0m                                &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.lesCollaborateursSuivants(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | prénom | nom      | matricule | département | entrée     | rôles               |
+    | Rachel | Referent | 1001      | DIG         | 2018-09-03 | REFERENT,CONSULTANT |
+    | Alice  | Martin   | 1002      | DIG         | 2020-01-06 | CONSULTANT          |
+    | Bruno  | Petit    | 1003      | DIG         | 2021-03-01 | CONSULTANT          |
+    | Chloé  | Durand   | 1004      | CLD         | 2024-09-02 | CONSULTANT          |
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"DIG"&amp#27;[0m&amp#27;[32m a pour référente &amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementAvecReferent(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLD"&amp#27;[0m&amp#27;[32m n'a pas de référent&amp#27;[0m                              &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementSansReferent(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-05&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m14:00&amp#27;[0m                                     &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m demande un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"CP"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-14&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmatin&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-15&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1msoir&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.demande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32ml'opération est rejetée pour la règle &amp#27;[0m&amp#27;[32m&amp#27;[1m"CONGE_SANS_JOUR_OUVRE"&amp#27;[0m      &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.rejetee(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Demandes de congés - Une demande qui chevauche une demande en attente est refusée" classname="Demandes de congés" time="0.034">
+    <system-out><![CDATA[
+Scénario: Une demande qui chevauche une demande en attente est refusée                 &amp#27;[90m# features/conges.feature:35&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mles collaborateurs suivants :&amp#27;[0m                                            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.lesCollaborateursSuivants(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | prénom | nom      | matricule | département | entrée     | rôles               |
+    | Rachel | Referent | 1001      | DIG         | 2018-09-03 | REFERENT,CONSULTANT |
+    | Alice  | Martin   | 1002      | DIG         | 2020-01-06 | CONSULTANT          |
+    | Bruno  | Petit    | 1003      | DIG         | 2021-03-01 | CONSULTANT          |
+    | Chloé  | Durand   | 1004      | CLD         | 2024-09-02 | CONSULTANT          |
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"DIG"&amp#27;[0m&amp#27;[32m a pour référente &amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m                                      &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementAvecReferent(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLD"&amp#27;[0m&amp#27;[32m n'a pas de référent&amp#27;[0m                                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementSansReferent(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-05&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m14:00&amp#27;[0m                                                 &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mÉtant donné qu'&amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m a demandé un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"RTT"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-30&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmatin&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-30&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1msoir&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.aDemande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m demande un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"CP"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-26&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmatin&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-30&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1msoir&amp#27;[0m             &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.demande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32ml'opération est rejetée pour la règle &amp#27;[0m&amp#27;[32m&amp#27;[1m"CONGE_CHEVAUCHEMENT"&amp#27;[0m                    &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.rejetee(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Demandes de congés - Le matin et l&apos;après-midi d&apos;un même jour peuvent faire l&apos;objet de deux demandes" classname="Demandes de congés" time="0.036">
+    <system-out><![CDATA[
+Scénario: Le matin et l'après-midi d'un même jour peuvent faire l'objet de deux demandes &amp#27;[90m# features/conges.feature:40&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mles collaborateurs suivants :&amp#27;[0m                                              &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.lesCollaborateursSuivants(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | prénom | nom      | matricule | département | entrée     | rôles               |
+    | Rachel | Referent | 1001      | DIG         | 2018-09-03 | REFERENT,CONSULTANT |
+    | Alice  | Martin   | 1002      | DIG         | 2020-01-06 | CONSULTANT          |
+    | Bruno  | Petit    | 1003      | DIG         | 2021-03-01 | CONSULTANT          |
+    | Chloé  | Durand   | 1004      | CLD         | 2024-09-02 | CONSULTANT          |
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"DIG"&amp#27;[0m&amp#27;[32m a pour référente &amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m                                        &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementAvecReferent(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLD"&amp#27;[0m&amp#27;[32m n'a pas de référent&amp#27;[0m                                            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementSansReferent(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-05&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m14:00&amp#27;[0m                                                   &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mÉtant donné qu'&amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m a demandé un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"RTT"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-02&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmatin&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-02&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmidi&amp#27;[0m   &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.aDemande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m demande un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"CP"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-02&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1maprès-midi&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-02&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1msoir&amp#27;[0m          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.demande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla demande compte &amp#27;[0m&amp#27;[32m&amp#27;[1m0.5&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                                                      &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.laDemandeCompte(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mla demande est &amp#27;[0m&amp#27;[32m&amp#27;[1m"En attente"&amp#27;[0m                                                         &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.laDemandeEst(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Demandes de congés - La référente du département valide et les saisies d&apos;absence sont produites" classname="Demandes de congés" time="0.045">
+    <system-out><![CDATA[
+Scénario: La référente du département valide et les saisies d'absence sont produites       &amp#27;[90m# features/conges.feature:46&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mles collaborateurs suivants :&amp#27;[0m                                                &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.lesCollaborateursSuivants(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | prénom | nom      | matricule | département | entrée     | rôles               |
+    | Rachel | Referent | 1001      | DIG         | 2018-09-03 | REFERENT,CONSULTANT |
+    | Alice  | Martin   | 1002      | DIG         | 2020-01-06 | CONSULTANT          |
+    | Bruno  | Petit    | 1003      | DIG         | 2021-03-01 | CONSULTANT          |
+    | Chloé  | Durand   | 1004      | CLD         | 2024-09-02 | CONSULTANT          |
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"DIG"&amp#27;[0m&amp#27;[32m a pour référente &amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m                                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementAvecReferent(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLD"&amp#27;[0m&amp#27;[32m n'a pas de référent&amp#27;[0m                                              &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementSansReferent(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-05&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m14:00&amp#27;[0m                                                     &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mÉtant donné qu'&amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m a demandé un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"CP"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-16&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1maprès-midi&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-18&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmidi&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.aDemande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m&amp#27;[32m valide la demande&amp#27;[0m                                                           &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.valide(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla demande est &amp#27;[0m&amp#27;[32m&amp#27;[1m"Validée"&amp#27;[0m                                                           &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.laDemandeEst(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mles saisies d'absence suivantes sont produites :&amp#27;[0m                                      &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.saisiesProduites(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | date       | jours | projet |
+    | 2025-06-16 | 0.5   | CP     |
+    | 2025-06-17 | 1.0   | CP     |
+    | 2025-06-18 | 0.5   | CP     |
+]]></system-out>
+  </testcase>
+  <testcase name="Demandes de congés - Un référent d&apos;un autre département ne peut pas décider" classname="Demandes de congés" time="0.037">
+    <system-out><![CDATA[
+Scénario: Un référent d'un autre département ne peut pas décider                       &amp#27;[90m# features/conges.feature:56&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mles collaborateurs suivants :&amp#27;[0m                                            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.lesCollaborateursSuivants(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | prénom | nom      | matricule | département | entrée     | rôles               |
+    | Rachel | Referent | 1001      | DIG         | 2018-09-03 | REFERENT,CONSULTANT |
+    | Alice  | Martin   | 1002      | DIG         | 2020-01-06 | CONSULTANT          |
+    | Bruno  | Petit    | 1003      | DIG         | 2021-03-01 | CONSULTANT          |
+    | Chloé  | Durand   | 1004      | CLD         | 2024-09-02 | CONSULTANT          |
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"DIG"&amp#27;[0m&amp#27;[32m a pour référente &amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m                                      &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementAvecReferent(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLD"&amp#27;[0m&amp#27;[32m n'a pas de référent&amp#27;[0m                                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementSansReferent(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-05&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m14:00&amp#27;[0m                                                 &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mÉtant donné que &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mChloé&amp#27;[0m&amp#27;[32m a demandé un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"CP"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-02&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmatin&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-06&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1msoir&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.aDemande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m&amp#27;[32m valide la demande&amp#27;[0m                                                       &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.valide(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32ml'opération est rejetée pour la règle &amp#27;[0m&amp#27;[32m&amp#27;[1m"CONGE_DECIDEUR_NON_HABILITE"&amp#27;[0m            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.rejetee(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mla demande est &amp#27;[0m&amp#27;[32m&amp#27;[1m"En attente"&amp#27;[0m                                                       &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.laDemandeEst(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Demandes de congés - Un consultant ne peut pas décider" classname="Demandes de congés" time="0.028">
+    <system-out><![CDATA[
+Scénario: Un consultant ne peut pas décider                                            &amp#27;[90m# features/conges.feature:62&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mles collaborateurs suivants :&amp#27;[0m                                            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.lesCollaborateursSuivants(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | prénom | nom      | matricule | département | entrée     | rôles               |
+    | Rachel | Referent | 1001      | DIG         | 2018-09-03 | REFERENT,CONSULTANT |
+    | Alice  | Martin   | 1002      | DIG         | 2020-01-06 | CONSULTANT          |
+    | Bruno  | Petit    | 1003      | DIG         | 2021-03-01 | CONSULTANT          |
+    | Chloé  | Durand   | 1004      | CLD         | 2024-09-02 | CONSULTANT          |
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"DIG"&amp#27;[0m&amp#27;[32m a pour référente &amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m                                      &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementAvecReferent(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLD"&amp#27;[0m&amp#27;[32m n'a pas de référent&amp#27;[0m                                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementSansReferent(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-05&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m14:00&amp#27;[0m                                                 &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mÉtant donné qu'&amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m a demandé un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"RTT"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-30&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmatin&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-30&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1msoir&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.aDemande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mBruno&amp#27;[0m&amp#27;[32m refuse la demande&amp#27;[0m                                                        &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.refuse(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32ml'opération est rejetée pour la règle &amp#27;[0m&amp#27;[32m&amp#27;[1m"CONGE_DECIDEUR_NON_HABILITE"&amp#27;[0m            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.rejetee(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Demandes de congés - Département sans référent, tous les référents sont prévenus" classname="Demandes de congés" time="0.019">
+    <system-out><![CDATA[
+Scénario: Département sans référent, tous les référents sont prévenus      &amp#27;[90m# features/conges.feature:67&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mles collaborateurs suivants :&amp#27;[0m                                &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.lesCollaborateursSuivants(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | prénom | nom      | matricule | département | entrée     | rôles               |
+    | Rachel | Referent | 1001      | DIG         | 2018-09-03 | REFERENT,CONSULTANT |
+    | Alice  | Martin   | 1002      | DIG         | 2020-01-06 | CONSULTANT          |
+    | Bruno  | Petit    | 1003      | DIG         | 2021-03-01 | CONSULTANT          |
+    | Chloé  | Durand   | 1004      | CLD         | 2024-09-02 | CONSULTANT          |
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"DIG"&amp#27;[0m&amp#27;[32m a pour référente &amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementAvecReferent(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLD"&amp#27;[0m&amp#27;[32m n'a pas de référent&amp#27;[0m                              &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementSansReferent(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-05&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m14:00&amp#27;[0m                                     &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mChloé&amp#27;[0m&amp#27;[32m demande un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"CP"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-02&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmatin&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-06&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1msoir&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.demande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mles destinataires de la demande sont &amp#27;[0m&amp#27;[32m&amp#27;[1m"Rachel"&amp#27;[0m                      &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.destinataires(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mla configuration est signalée incomplète&amp#27;[0m                              &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.configurationIncomplete()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Demandes de congés - Annuler la veille un congé validé" classname="Demandes de congés" time="0.02">
+    <system-out><![CDATA[
+Scénario: Annuler la veille un congé validé                                            &amp#27;[90m# features/conges.feature:72&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mles collaborateurs suivants :&amp#27;[0m                                            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.lesCollaborateursSuivants(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | prénom | nom      | matricule | département | entrée     | rôles               |
+    | Rachel | Referent | 1001      | DIG         | 2018-09-03 | REFERENT,CONSULTANT |
+    | Alice  | Martin   | 1002      | DIG         | 2020-01-06 | CONSULTANT          |
+    | Bruno  | Petit    | 1003      | DIG         | 2021-03-01 | CONSULTANT          |
+    | Chloé  | Durand   | 1004      | CLD         | 2024-09-02 | CONSULTANT          |
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"DIG"&amp#27;[0m&amp#27;[32m a pour référente &amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m                                      &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementAvecReferent(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLD"&amp#27;[0m&amp#27;[32m n'a pas de référent&amp#27;[0m                                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementSansReferent(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-05&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m14:00&amp#27;[0m                                                 &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mÉtant donné qu'&amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m a demandé un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"RTT"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-30&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmatin&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-30&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1msoir&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.aDemande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt que &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m&amp#27;[32m a validé la demande&amp#27;[0m                                                    &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.aValide(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-29&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m18:00&amp#27;[0m                                                 &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m annule la demande&amp#27;[0m                                                        &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.annule(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla demande est &amp#27;[0m&amp#27;[32m&amp#27;[1m"Annulée"&amp#27;[0m                                                       &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.laDemandeEst(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle nombre de saisies à retirer est &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                                              &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nombreDeSaisiesARetirer(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Demandes de congés - Un congé validé ne s&apos;annule plus une fois commencé" classname="Demandes de congés" time="0.021">
+    <system-out><![CDATA[
+Scénario: Un congé validé ne s'annule plus une fois commencé                           &amp#27;[90m# features/conges.feature:80&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mles collaborateurs suivants :&amp#27;[0m                                            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.lesCollaborateursSuivants(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | prénom | nom      | matricule | département | entrée     | rôles               |
+    | Rachel | Referent | 1001      | DIG         | 2018-09-03 | REFERENT,CONSULTANT |
+    | Alice  | Martin   | 1002      | DIG         | 2020-01-06 | CONSULTANT          |
+    | Bruno  | Petit    | 1003      | DIG         | 2021-03-01 | CONSULTANT          |
+    | Chloé  | Durand   | 1004      | CLD         | 2024-09-02 | CONSULTANT          |
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"DIG"&amp#27;[0m&amp#27;[32m a pour référente &amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m                                      &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementAvecReferent(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLD"&amp#27;[0m&amp#27;[32m n'a pas de référent&amp#27;[0m                                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementSansReferent(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-05&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m14:00&amp#27;[0m                                                 &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mÉtant donné qu'&amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m a demandé un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"RTT"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-30&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmatin&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-30&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1msoir&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.aDemande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt que &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m&amp#27;[32m a validé la demande&amp#27;[0m                                                    &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.aValide(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-30&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m08:00&amp#27;[0m                                                 &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m annule la demande&amp#27;[0m                                                        &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.annule(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32ml'opération est rejetée pour la règle &amp#27;[0m&amp#27;[32m&amp#27;[1m"CONGE_ANNULATION_TARDIVE"&amp#27;[0m               &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.rejetee(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mla demande est &amp#27;[0m&amp#27;[32m&amp#27;[1m"Validée"&amp#27;[0m                                                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.laDemandeEst(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Demandes de congés - Relance des demandes sans réponse après 3 jours ouvrés" classname="Demandes de congés" time="0.015">
+    <system-out><![CDATA[
+Scénario: Relance des demandes sans réponse après 3 jours ouvrés             &amp#27;[90m# features/conges.feature:88&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mles collaborateurs suivants :&amp#27;[0m                                  &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.lesCollaborateursSuivants(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | prénom | nom      | matricule | département | entrée     | rôles               |
+    | Rachel | Referent | 1001      | DIG         | 2018-09-03 | REFERENT,CONSULTANT |
+    | Alice  | Martin   | 1002      | DIG         | 2020-01-06 | CONSULTANT          |
+    | Bruno  | Petit    | 1003      | DIG         | 2021-03-01 | CONSULTANT          |
+    | Chloé  | Durand   | 1004      | CLD         | 2024-09-02 | CONSULTANT          |
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"DIG"&amp#27;[0m&amp#27;[32m a pour référente &amp#27;[0m&amp#27;[32m&amp#27;[1mRachel&amp#27;[0m                            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementAvecReferent(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle département &amp#27;[0m&amp#27;[32m&amp#27;[1m"CLD"&amp#27;[0m&amp#27;[32m n'a pas de référent&amp#27;[0m                                &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.departementSansReferent(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-05&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m14:00&amp#27;[0m                                       &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-05-28&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m10:00&amp#27;[0m                              &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt qu'&amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mAlice&amp#27;[0m&amp#27;[32m a demandé un congé &amp#27;[0m&amp#27;[32m&amp#27;[1m"CP"&amp#27;[0m&amp#27;[32m du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-07-07&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mmatin&amp#27;[0m&amp#27;[32m au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-07-11&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1msoir&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.aDemande(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-02&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m09:00&amp#27;[0m                                    &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla demande n'est pas à relancer après &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m jours ouvrés&amp#27;[0m                 &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.pasARelancer(int)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-03&amp#27;[0m&amp#27;[32m à &amp#27;[0m&amp#27;[32m&amp#27;[1m09:00&amp#27;[0m                                    &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.nousSommesLe(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla demande est à relancer après &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m jours ouvrés&amp#27;[0m                       &amp#27;[90m# fr.conserto.consertime.bdd.EtapesConges.aRelancer(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Droits à congés payés selon la date d&apos;embauche - Droits acquis sur la période de référence 2024-2025 - Exemples - Example #1.1" classname="Droits à congés payés selon la date d&apos;embauche - Droits acquis sur la période de référence 2024-2025 - Exemples" time="0.013">
+    <system-out><![CDATA[
+Plan du scénario: Droits acquis sur la période de référence 2024-2025 &amp#27;[90m# features/droits_conges_payes.feature:16&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mun collaborateur embauché le &amp#27;[0m&amp#27;[32m&amp#27;[1m2020-01-06&amp#27;[0m                 &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.collaborateurEmbauche(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mun décompte en jours &amp#27;[0m&amp#27;[32m&amp#27;[1m"ouvrables"&amp#27;[0m                                 &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.decompte(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mon calcule ses droits au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-01&amp#27;[0m                           &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.calculAu(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mil a acquis &amp#27;[0m&amp#27;[32m&amp#27;[1m30.00&amp#27;[0m&amp#27;[32m jours avant arrondi&amp#27;[0m                         &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.acquisBruts(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mses droits retenus sont de &amp#27;[0m&amp#27;[32m&amp#27;[1m30&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                              &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.droitsRetenus(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Droits à congés payés selon la date d&apos;embauche - Droits acquis sur la période de référence 2024-2025 - Exemples - Example #1.2" classname="Droits à congés payés selon la date d&apos;embauche - Droits acquis sur la période de référence 2024-2025 - Exemples" time="0.016">
+    <system-out><![CDATA[
+Plan du scénario: Droits acquis sur la période de référence 2024-2025 &amp#27;[90m# features/droits_conges_payes.feature:17&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mun collaborateur embauché le &amp#27;[0m&amp#27;[32m&amp#27;[1m2020-01-06&amp#27;[0m                 &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.collaborateurEmbauche(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mun décompte en jours &amp#27;[0m&amp#27;[32m&amp#27;[1m"ouvrés"&amp#27;[0m                                    &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.decompte(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mon calcule ses droits au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-01&amp#27;[0m                           &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.calculAu(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mil a acquis &amp#27;[0m&amp#27;[32m&amp#27;[1m25.00&amp#27;[0m&amp#27;[32m jours avant arrondi&amp#27;[0m                         &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.acquisBruts(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mses droits retenus sont de &amp#27;[0m&amp#27;[32m&amp#27;[1m25&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                              &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.droitsRetenus(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Droits à congés payés selon la date d&apos;embauche - Droits acquis sur la période de référence 2024-2025 - Exemples - Example #1.3" classname="Droits à congés payés selon la date d&apos;embauche - Droits acquis sur la période de référence 2024-2025 - Exemples" time="0.016">
+    <system-out><![CDATA[
+Plan du scénario: Droits acquis sur la période de référence 2024-2025 &amp#27;[90m# features/droits_conges_payes.feature:18&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mun collaborateur embauché le &amp#27;[0m&amp#27;[32m&amp#27;[1m2024-09-16&amp#27;[0m                 &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.collaborateurEmbauche(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mun décompte en jours &amp#27;[0m&amp#27;[32m&amp#27;[1m"ouvrables"&amp#27;[0m                                 &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.decompte(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mon calcule ses droits au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-01&amp#27;[0m                           &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.calculAu(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mil a acquis &amp#27;[0m&amp#27;[32m&amp#27;[1m21.35&amp#27;[0m&amp#27;[32m jours avant arrondi&amp#27;[0m                         &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.acquisBruts(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mses droits retenus sont de &amp#27;[0m&amp#27;[32m&amp#27;[1m22&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                              &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.droitsRetenus(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Droits à congés payés selon la date d&apos;embauche - Droits acquis sur la période de référence 2024-2025 - Exemples - Example #1.4" classname="Droits à congés payés selon la date d&apos;embauche - Droits acquis sur la période de référence 2024-2025 - Exemples" time="0.012">
+    <system-out><![CDATA[
+Plan du scénario: Droits acquis sur la période de référence 2024-2025 &amp#27;[90m# features/droits_conges_payes.feature:19&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mun collaborateur embauché le &amp#27;[0m&amp#27;[32m&amp#27;[1m2024-09-16&amp#27;[0m                 &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.collaborateurEmbauche(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mun décompte en jours &amp#27;[0m&amp#27;[32m&amp#27;[1m"ouvrés"&amp#27;[0m                                    &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.decompte(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mon calcule ses droits au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-01&amp#27;[0m                           &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.calculAu(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mil a acquis &amp#27;[0m&amp#27;[32m&amp#27;[1m17.81&amp#27;[0m&amp#27;[32m jours avant arrondi&amp#27;[0m                         &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.acquisBruts(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mses droits retenus sont de &amp#27;[0m&amp#27;[32m&amp#27;[1m18&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                              &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.droitsRetenus(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Droits à congés payés selon la date d&apos;embauche - Droits acquis sur la période de référence 2024-2025 - Exemples - Example #1.5" classname="Droits à congés payés selon la date d&apos;embauche - Droits acquis sur la période de référence 2024-2025 - Exemples" time="0.008">
+    <system-out><![CDATA[
+Plan du scénario: Droits acquis sur la période de référence 2024-2025 &amp#27;[90m# features/droits_conges_payes.feature:20&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mun collaborateur embauché le &amp#27;[0m&amp#27;[32m&amp#27;[1m2024-09-02&amp#27;[0m                 &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.collaborateurEmbauche(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mun décompte en jours &amp#27;[0m&amp#27;[32m&amp#27;[1m"ouvrables"&amp#27;[0m                                 &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.decompte(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mon calcule ses droits au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-01&amp#27;[0m                           &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.calculAu(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mil a acquis &amp#27;[0m&amp#27;[32m&amp#27;[1m22.50&amp#27;[0m&amp#27;[32m jours avant arrondi&amp#27;[0m                         &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.acquisBruts(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mses droits retenus sont de &amp#27;[0m&amp#27;[32m&amp#27;[1m23&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                              &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.droitsRetenus(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Droits à congés payés selon la date d&apos;embauche - Droits acquis sur la période de référence 2024-2025 - Exemples - Example #1.6" classname="Droits à congés payés selon la date d&apos;embauche - Droits acquis sur la période de référence 2024-2025 - Exemples" time="0.008">
+    <system-out><![CDATA[
+Plan du scénario: Droits acquis sur la période de référence 2024-2025 &amp#27;[90m# features/droits_conges_payes.feature:21&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mun collaborateur embauché le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-03-01&amp#27;[0m                 &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.collaborateurEmbauche(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mun décompte en jours &amp#27;[0m&amp#27;[32m&amp#27;[1m"ouvrés"&amp#27;[0m                                    &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.decompte(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mon calcule ses droits au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-01&amp#27;[0m                           &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.calculAu(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mil a acquis &amp#27;[0m&amp#27;[32m&amp#27;[1m6.25&amp#27;[0m&amp#27;[32m jours avant arrondi&amp#27;[0m                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.acquisBruts(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mses droits retenus sont de &amp#27;[0m&amp#27;[32m&amp#27;[1m7&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                               &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.droitsRetenus(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Droits à congés payés selon la date d&apos;embauche - Acquisition en cours, mesurée à la date du jour" classname="Droits à congés payés selon la date d&apos;embauche" time="0.01">
+    <system-out><![CDATA[
+Scénario: Acquisition en cours, mesurée à la date du jour &amp#27;[90m# features/droits_conges_payes.feature:23&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mun collaborateur embauché le &amp#27;[0m&amp#27;[32m&amp#27;[1m2024-09-16&amp#27;[0m     &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.collaborateurEmbauche(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mun décompte en jours &amp#27;[0m&amp#27;[32m&amp#27;[1m"ouvrables"&amp#27;[0m                     &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.decompte(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2024-12-15&amp#27;[0m                            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.nousSommesLe(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mon calcule ses droits à la date du jour&amp#27;[0m           &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.calculALaDateDuJour()&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mil a acquis &amp#27;[0m&amp#27;[32m&amp#27;[1m6.35&amp#27;[0m&amp#27;[32m jours avant arrondi&amp#27;[0m              &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.acquisBruts(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mla période de référence n'est pas close&amp#27;[0m              &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.periodeNonClose()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Droits à congés payés selon la date d&apos;embauche - Le mois en cours est acquis le dernier jour du mois" classname="Droits à congés payés selon la date d&apos;embauche" time="0.009">
+    <system-out><![CDATA[
+Scénario: Le mois en cours est acquis le dernier jour du mois &amp#27;[90m# features/droits_conges_payes.feature:31&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mun collaborateur embauché le &amp#27;[0m&amp#27;[32m&amp#27;[1m2024-09-16&amp#27;[0m         &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.collaborateurEmbauche(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mun décompte en jours &amp#27;[0m&amp#27;[32m&amp#27;[1m"ouvrables"&amp#27;[0m                         &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.decompte(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mnous sommes le &amp#27;[0m&amp#27;[32m&amp#27;[1m2024-12-31&amp#27;[0m                                &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.nousSommesLe(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mon calcule ses droits à la date du jour&amp#27;[0m               &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.calculALaDateDuJour()&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mil a acquis &amp#27;[0m&amp#27;[32m&amp#27;[1m8.85&amp#27;[0m&amp#27;[32m jours avant arrondi&amp#27;[0m                  &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.acquisBruts(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Droits à congés payés selon la date d&apos;embauche - Un stagiaire n&apos;acquiert pas de congés payés" classname="Droits à congés payés selon la date d&apos;embauche" time="0.007">
+    <system-out><![CDATA[
+Scénario: Un stagiaire n'acquiert pas de congés payés &amp#27;[90m# features/droits_conges_payes.feature:38&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mun stagiaire embauché le &amp#27;[0m&amp#27;[32m&amp#27;[1m2024-06-01&amp#27;[0m     &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.stagiaireEmbauche(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mun décompte en jours &amp#27;[0m&amp#27;[32m&amp#27;[1m"ouvrés"&amp#27;[0m                    &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.decompte(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mon calcule ses droits au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-01&amp#27;[0m           &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.calculAu(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mses droits retenus sont de &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m&amp#27;[32m jours&amp#27;[0m            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.droitsRetenus(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Droits à congés payés selon la date d&apos;embauche - Congés d&apos;ancienneté de la convention Syntec - Exemples - Example #1.1" classname="Droits à congés payés selon la date d&apos;embauche - Congés d&apos;ancienneté de la convention Syntec - Exemples" time="0.009">
+    <system-out><![CDATA[
+Plan du scénario: Congés d'ancienneté de la convention Syntec          &amp#27;[90m# features/droits_conges_payes.feature:52&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mun collaborateur embauché le &amp#27;[0m&amp#27;[32m&amp#27;[1m2020-06-02&amp#27;[0m                  &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.collaborateurEmbauche(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mun décompte en jours &amp#27;[0m&amp#27;[32m&amp#27;[1m"ouvrés"&amp#27;[0m&amp#27;[32m avec les congés d'ancienneté Syntec&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.decompteSyntec(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mon calcule ses droits au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-01&amp#27;[0m                            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.calculAu(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mses droits totaux sont de &amp#27;[0m&amp#27;[32m&amp#27;[1m25&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                             &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.droitsTotaux(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Droits à congés payés selon la date d&apos;embauche - Congés d&apos;ancienneté de la convention Syntec - Exemples - Example #1.2" classname="Droits à congés payés selon la date d&apos;embauche - Congés d&apos;ancienneté de la convention Syntec - Exemples" time="0.007">
+    <system-out><![CDATA[
+Plan du scénario: Congés d'ancienneté de la convention Syntec          &amp#27;[90m# features/droits_conges_payes.feature:53&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mun collaborateur embauché le &amp#27;[0m&amp#27;[32m&amp#27;[1m2020-06-01&amp#27;[0m                  &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.collaborateurEmbauche(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mun décompte en jours &amp#27;[0m&amp#27;[32m&amp#27;[1m"ouvrés"&amp#27;[0m&amp#27;[32m avec les congés d'ancienneté Syntec&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.decompteSyntec(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mon calcule ses droits au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-01&amp#27;[0m                            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.calculAu(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mses droits totaux sont de &amp#27;[0m&amp#27;[32m&amp#27;[1m26&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                             &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.droitsTotaux(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Droits à congés payés selon la date d&apos;embauche - Congés d&apos;ancienneté de la convention Syntec - Exemples - Example #1.3" classname="Droits à congés payés selon la date d&apos;embauche - Congés d&apos;ancienneté de la convention Syntec - Exemples" time="0.007">
+    <system-out><![CDATA[
+Plan du scénario: Congés d'ancienneté de la convention Syntec          &amp#27;[90m# features/droits_conges_payes.feature:54&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mun collaborateur embauché le &amp#27;[0m&amp#27;[32m&amp#27;[1m2015-01-05&amp#27;[0m                  &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.collaborateurEmbauche(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mun décompte en jours &amp#27;[0m&amp#27;[32m&amp#27;[1m"ouvrés"&amp#27;[0m&amp#27;[32m avec les congés d'ancienneté Syntec&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.decompteSyntec(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mon calcule ses droits au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-01&amp#27;[0m                            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.calculAu(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mses droits totaux sont de &amp#27;[0m&amp#27;[32m&amp#27;[1m27&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                             &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.droitsTotaux(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Droits à congés payés selon la date d&apos;embauche - Congés d&apos;ancienneté de la convention Syntec - Exemples - Example #1.4" classname="Droits à congés payés selon la date d&apos;embauche - Congés d&apos;ancienneté de la convention Syntec - Exemples" time="0.008">
+    <system-out><![CDATA[
+Plan du scénario: Congés d'ancienneté de la convention Syntec          &amp#27;[90m# features/droits_conges_payes.feature:55&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mun collaborateur embauché le &amp#27;[0m&amp#27;[32m&amp#27;[1m2000-01-03&amp#27;[0m                  &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.collaborateurEmbauche(java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mun décompte en jours &amp#27;[0m&amp#27;[32m&amp#27;[1m"ouvrés"&amp#27;[0m&amp#27;[32m avec les congés d'ancienneté Syntec&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.decompteSyntec(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mon calcule ses droits au &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-06-01&amp#27;[0m                            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.calculAu(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mses droits totaux sont de &amp#27;[0m&amp#27;[32m&amp#27;[1m29&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                             &amp#27;[90m# fr.conserto.consertime.bdd.EtapesDroitsConges.droitsTotaux(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Saisie des temps, CRA et feuille de temps - Avril complet, CRA et FDT" classname="Saisie des temps, CRA et feuille de temps" time="0.018">
+    <system-out><![CDATA[
+Scénario: Avril complet, CRA et FDT                                      &amp#27;[90m# features/saisie_et_documents.feature:9&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mla feuille de temps d'Alice Martin pour le mois &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-04&amp#27;[0m    &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.feuilleDAlice(java.lang.String)&amp#27;[0m
+  &amp#27;[32mÉtant donné qu'&amp#27;[0m&amp#27;[32mAlice a saisi les périodes suivantes :&amp#27;[0m                  &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.periodesSaisies(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | du         | au         | projet           | jours |
+    | 2025-04-01 | 2025-04-14 | Refonte extranet | 1     |
+    | 2025-04-15 | 2025-04-15 | Intercontrat     | 1     |
+    | 2025-04-16 | 2025-04-21 | Refonte extranet | 1     |
+    | 2025-04-22 | 2025-04-25 | Congés payés     | 1     |
+    | 2025-04-28 | 2025-04-30 | Refonte extranet | 1     |
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla feuille est complète avec &amp#27;[0m&amp#27;[32m&amp#27;[1m21&amp#27;[0m&amp#27;[32m jours ouvrés attendus&amp#27;[0m            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.complete(int)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mon établit le compte rendu d'activité&amp#27;[0m                            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.etablirCra()&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mle CRA compte &amp#27;[0m&amp#27;[32m&amp#27;[1m16&amp#27;[0m&amp#27;[32m jours facturés pour le client &amp#27;[0m&amp#27;[32m&amp#27;[1m"ACME Assurances"&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.craJoursFactures(int,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mla ligne du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-04-21&amp#27;[0m&amp#27;[32m est de type &amp#27;[0m&amp#27;[32m&amp#27;[1m"FERIE"&amp#27;[0m                          &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.typeDeLigne(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mla ligne du &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-04-14&amp#27;[0m&amp#27;[32m indique &amp#27;[0m&amp#27;[32m&amp#27;[1m"(1.0) - Refonte extranet"&amp#27;[0m           &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.libelleDeLigne(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mon établit la feuille de temps mensuelle&amp#27;[0m                         &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.etablirFdt()&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla FDT contient les totaux suivants :&amp#27;[0m                            &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.totauxFdt(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | projet           | total |
+    | Refonte extranet | 16.0  |
+    | Intercontrat     | 1.0   |
+    | Congés payés     | 4.0   |
+  &amp#27;[32mEt &amp#27;[0m&amp#27;[32mle total du mois est de &amp#27;[0m&amp#27;[32m&amp#27;[1m21.0&amp#27;[0m&amp#27;[32m jours&amp#27;[0m                                  &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.totalDuMois(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Saisie des temps, CRA et feuille de temps - Un mois incomplet ne peut pas être exporté" classname="Saisie des temps, CRA et feuille de temps" time="0.014">
+    <system-out><![CDATA[
+Scénario: Un mois incomplet ne peut pas être exporté                         &amp#27;[90m# features/saisie_et_documents.feature:30&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mla feuille de temps d'Alice Martin pour le mois &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-04&amp#27;[0m        &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.feuilleDAlice(java.lang.String)&amp#27;[0m
+  &amp#27;[32mÉtant donné qu'&amp#27;[0m&amp#27;[32mAlice a saisi les périodes suivantes :&amp#27;[0m                      &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.periodesSaisies(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | du         | au         | projet           | jours |
+    | 2025-04-01 | 2025-04-18 | Refonte extranet | 1     |
+    | 2025-04-22 | 2025-04-22 | Refonte extranet | 0.5   |
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mon établit le compte rendu d'activité&amp#27;[0m                                &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.etablirCra()&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32ml'export est refusé avec &amp#27;[0m&amp#27;[32m&amp#27;[1m21&amp#27;[0m&amp#27;[32m jours ouvrés attendus et &amp#27;[0m&amp#27;[32m&amp#27;[1m14&amp#27;[0m&amp#27;[32m jours saisis&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.exportRefuse(int,int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Saisie des temps, CRA et feuille de temps - Plus d&apos;un jour sur une même date est refusé" classname="Saisie des temps, CRA et feuille de temps" time="0.01">
+    <system-out><![CDATA[
+Scénario: Plus d'un jour sur une même date est refusé                 &amp#27;[90m# features/saisie_et_documents.feature:38&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mla feuille de temps d'Alice Martin pour le mois &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-04&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.feuilleDAlice(java.lang.String)&amp#27;[0m
+  &amp#27;[32mÉtant donné qu'&amp#27;[0m&amp#27;[32mAlice a saisi les périodes suivantes :&amp#27;[0m               &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.periodesSaisies(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | du         | au         | projet           | jours |
+    | 2025-04-02 | 2025-04-02 | Refonte extranet | 1     |
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mAlice saisit &amp#27;[0m&amp#27;[32m&amp#27;[1m0.5&amp#27;[0m&amp#27;[32m jour sur &amp#27;[0m&amp#27;[32m&amp#27;[1m"Intercontrat"&amp#27;[0m&amp#27;[32m le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-04-02&amp#27;[0m        &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.saisit(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla saisie est rejetée pour la règle &amp#27;[0m&amp#27;[32m&amp#27;[1m"SAISIE_JOUR_DEPASSE"&amp#27;[0m     &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.saisieRejetee(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Saisie des temps, CRA et feuille de temps - Quantités de saisie - Exemples - Example #1.1" classname="Saisie des temps, CRA et feuille de temps - Quantités de saisie - Exemples" time="0.011">
+    <system-out><![CDATA[
+Plan du scénario: Quantités de saisie                                 &amp#27;[90m# features/saisie_et_documents.feature:51&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mla feuille de temps d'Alice Martin pour le mois &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-04&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.feuilleDAlice(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mAlice saisit &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m jour sur &amp#27;[0m&amp#27;[32m&amp#27;[1m"Refonte extranet"&amp#27;[0m&amp#27;[32m le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-04-03&amp#27;[0m      &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.saisit(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla saisie est acceptée&amp#27;[0m                                        &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.saisieAcceptee()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Saisie des temps, CRA et feuille de temps - Quantités de saisie - Exemples - Example #1.2" classname="Saisie des temps, CRA et feuille de temps - Quantités de saisie - Exemples" time="0.008">
+    <system-out><![CDATA[
+Plan du scénario: Quantités de saisie                                 &amp#27;[90m# features/saisie_et_documents.feature:52&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mla feuille de temps d'Alice Martin pour le mois &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-04&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.feuilleDAlice(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mAlice saisit &amp#27;[0m&amp#27;[32m&amp#27;[1m0.5&amp#27;[0m&amp#27;[32m jour sur &amp#27;[0m&amp#27;[32m&amp#27;[1m"Refonte extranet"&amp#27;[0m&amp#27;[32m le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-04-03&amp#27;[0m    &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.saisit(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla saisie est acceptée&amp#27;[0m                                        &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.saisieAcceptee()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Saisie des temps, CRA et feuille de temps - Quantités de saisie - Exemples - Example #1.3" classname="Saisie des temps, CRA et feuille de temps - Quantités de saisie - Exemples" time="0.006">
+    <system-out><![CDATA[
+Plan du scénario: Quantités de saisie                                  &amp#27;[90m# features/saisie_et_documents.feature:53&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mla feuille de temps d'Alice Martin pour le mois &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-04&amp#27;[0m  &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.feuilleDAlice(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mAlice saisit &amp#27;[0m&amp#27;[32m&amp#27;[1m0.25&amp#27;[0m&amp#27;[32m jour sur &amp#27;[0m&amp#27;[32m&amp#27;[1m"Refonte extranet"&amp#27;[0m&amp#27;[32m le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-04-03&amp#27;[0m    &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.saisit(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla saisie est rejetée pour la règle &amp#27;[0m&amp#27;[32m&amp#27;[1m"SAISIE_QUANTITE_INVALIDE"&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.saisieRejetee(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Saisie des temps, CRA et feuille de temps - Quantités de saisie - Exemples - Example #1.4" classname="Saisie des temps, CRA et feuille de temps - Quantités de saisie - Exemples" time="0.007">
+    <system-out><![CDATA[
+Plan du scénario: Quantités de saisie                                  &amp#27;[90m# features/saisie_et_documents.feature:54&amp#27;[0m
+  &amp#27;[32mÉtant donné &amp#27;[0m&amp#27;[32mla feuille de temps d'Alice Martin pour le mois &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-04&amp#27;[0m  &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.feuilleDAlice(java.lang.String)&amp#27;[0m
+  &amp#27;[32mQuand &amp#27;[0m&amp#27;[32mAlice saisit &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m jour sur &amp#27;[0m&amp#27;[32m&amp#27;[1m"Refonte extranet"&amp#27;[0m&amp#27;[32m le &amp#27;[0m&amp#27;[32m&amp#27;[1m2025-04-03&amp#27;[0m       &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.saisit(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAlors &amp#27;[0m&amp#27;[32mla saisie est rejetée pour la règle &amp#27;[0m&amp#27;[32m&amp#27;[1m"SAISIE_QUANTITE_INVALIDE"&amp#27;[0m &amp#27;[90m# fr.conserto.consertime.bdd.EtapesSaisieEtDocuments.saisieRejetee(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

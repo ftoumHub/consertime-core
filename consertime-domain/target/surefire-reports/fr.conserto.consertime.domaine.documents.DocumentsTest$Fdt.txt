@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: fr.conserto.consertime.domaine.documents.DocumentsTest$Fdt
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s -- in fr.conserto.consertime.domaine.documents.DocumentsTest$Fdt

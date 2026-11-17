@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: fr.conserto.consertime.domaine.conges.NotificationsTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 s -- in fr.conserto.consertime.domaine.conges.NotificationsTest

@@ -1,0 +1,15 @@
+C:\sandbox\consertime-core\consertime-domain\src\test\java\fr\conserto\consertime\bdd\EtapesCalendrier.java
+C:\sandbox\consertime-core\consertime-domain\src\test\java\fr\conserto\consertime\bdd\EtapesConges.java
+C:\sandbox\consertime-core\consertime-domain\src\test\java\fr\conserto\consertime\bdd\EtapesDroitsConges.java
+C:\sandbox\consertime-core\consertime-domain\src\test\java\fr\conserto\consertime\bdd\EtapesSaisieEtDocuments.java
+C:\sandbox\consertime-core\consertime-domain\src\test\java\fr\conserto\consertime\bdd\RunCucumberTest.java
+C:\sandbox\consertime-core\consertime-domain\src\test\java\fr\conserto\consertime\domaine\affaires\AffectationTest.java
+C:\sandbox\consertime-core\consertime-domain\src\test\java\fr\conserto\consertime\domaine\calendrier\CalendrierFranceTest.java
+C:\sandbox\consertime-core\consertime-domain\src\test\java\fr\conserto\consertime\domaine\calendrier\CalendrierOuvreTest.java
+C:\sandbox\consertime-core\consertime-domain\src\test\java\fr\conserto\consertime\domaine\conges\DemandeCongeTest.java
+C:\sandbox\consertime-core\consertime-domain\src\test\java\fr\conserto\consertime\domaine\conges\NotificationsTest.java
+C:\sandbox\consertime-core\consertime-domain\src\test\java\fr\conserto\consertime\domaine\conges\PeriodeCongeTest.java
+C:\sandbox\consertime-core\consertime-domain\src\test\java\fr\conserto\consertime\domaine\documents\DocumentsTest.java
+C:\sandbox\consertime-core\consertime-domain\src\test\java\fr\conserto\consertime\domaine\droits\CalculDroitsCongesPayesTest.java
+C:\sandbox\consertime-core\consertime-domain\src\test\java\fr\conserto\consertime\domaine\Fixtures.java
+C:\sandbox\consertime-core\consertime-domain\src\test\java\fr\conserto\consertime\domaine\temps\FeuilleDeTempsTest.java

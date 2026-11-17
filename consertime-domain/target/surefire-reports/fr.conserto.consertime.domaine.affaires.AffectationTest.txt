@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: fr.conserto.consertime.domaine.affaires.AffectationTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.489 s -- in fr.conserto.consertime.domaine.affaires.AffectationTest

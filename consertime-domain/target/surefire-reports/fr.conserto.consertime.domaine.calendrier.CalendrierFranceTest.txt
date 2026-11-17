@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: fr.conserto.consertime.domaine.calendrier.CalendrierFranceTest
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.159 s -- in fr.conserto.consertime.domaine.calendrier.CalendrierFranceTest
